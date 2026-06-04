@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package eleccioncarreras;
 
-/**
- *
- * @author arias
- */
 public class Nodo {
     
+    private Nodo derecha;
+    private Nodo izquierda;
+    private String dato;
+    boolean esCarrera;
+    
+    public Nodo(String dato, boolean esCarrera){
+        
+        this.dato = dato;
+        this.esCarrera = esCarrera;
+        this.derecha = null;
+        this.izquierda = null;
+    }
 }
