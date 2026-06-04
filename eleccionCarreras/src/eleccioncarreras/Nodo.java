@@ -6,7 +6,7 @@ public class Nodo {
     private Nodo derecha;
     private Nodo izquierda;
     private String dato;
-    boolean esCarrera;
+    private boolean esCarrera;
     
     public Nodo(String dato, boolean esCarrera){
         
