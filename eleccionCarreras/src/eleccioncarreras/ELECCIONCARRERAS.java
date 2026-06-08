@@ -1,6 +1,7 @@
 
 package eleccioncarreras;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ELECCIONCARRERAS {
@@ -13,19 +14,18 @@ public class ELECCIONCARRERAS {
         int opcion;
         
         do {
+
             System.out.println("\nOrientador Vocacional");
             
             System.out.println("1- Contruir arbol");
             System.out.println("2- Consultar carrera");
             System.out.println("3- Salir");
             System.out.println("Seleccione una opcion: ");
-            
-            opcion = sc.nextInt();
-            sc.nextLine();
-            
-            
-            switch(opcion){
                 
+            opcion = sc.nextInt();
+     
+            switch(opcion){
+                    
                 case 1: 
                     arbol.crearArbol();
                     break;
@@ -40,10 +40,8 @@ public class ELECCIONCARRERAS {
                     
                 default:
                     System.out.println("Opcion invalida");
+                    break;
             }
         } while (opcion != 3);
-        
-        sc.close();
     }
-    
 }
