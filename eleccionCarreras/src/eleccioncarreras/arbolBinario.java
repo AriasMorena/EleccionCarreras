@@ -22,7 +22,7 @@ public class arbolBinario {
     
     public void crearArbol(){
         
-        raiz = new Nodo("¿Te gusta mas lo fisico que lo mental? N/S", false);
+        raiz = new Nodo("¿Te gusta mas lo mental que lo fisico? N/S", false);
         
         Nodo fisico = crear("¿Te gusta analizar resolver problemas o trabajar con datos? N/S", false);
         Nodo mental = crear("¿Te gusta trabajar con tu cuerpo en movimiento? N/S", false);
