@@ -50,8 +50,8 @@ public class arbolBinario {
         aireLibre.setIzquierda(cocinar);
         aireLibre.setDerecha(animales);
 
-        cocinar.setDerecha(crear("Arquitectura\n\n¿En qué consiste?\nDiseño de edificios y espacios funcionales. Combina la creatividad, planificación y conocimientos técnicos.", true));
-        cocinar.setIzquierda(crear("Gastronomía\n\n¿En qué consiste?\nCreación y elaboración de alimentos. También puede gestionar cocinas y emprendimientos gastronómicos.", true));
+        cocinar.setIzquierda(crear("Arquitectura\n\n¿En qué consiste?\nDiseño de edificios y espacios funcionales. Combina la creatividad, planificación y conocimientos técnicos.", true));
+        cocinar.setDerecha(crear("Gastronomía\n\n¿En qué consiste?\nCreación y elaboración de alimentos. También puede gestionar cocinas y emprendimientos gastronómicos.", true));
 
         animales.setDerecha(crear("Veterinaria\n\n¿En qué consiste?\nPreviene, diagnosstica y trata enfermedades en animales. Promueve su salud y bienestar.", true));
         animales.setIzquierda(crear("Agronomía\n\n¿En qué consiste?\nMejora la producción agrícola y ganadera. Aplica conocimiento sobre cultivos, suelos y medio ambiente.", true));
