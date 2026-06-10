@@ -19,7 +19,7 @@ public class ELECCIONCARRERAS {
             System.out.println("1- Contruir árbol");
             System.out.println("2- Consultar carrera");
             System.out.println("3- Salir");
-            System.out.println("Seleccione una opción: ");
+            System.out.println("Seleccione una opció1n: ");
 
             opcion = sc.nextInt();
 
